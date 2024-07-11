@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Ipython
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Distribution / packaging
+.Python
+env/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+Pipfile
+
+# testing
+*.pytest_cache  
+
+# Django stuff:
+*.log
+
+# text
+*.txt
+
+# csv
+# *.csv
+
+# excel
+*.xlsx
+
+# parquet
+*.parquet
+
+# DS store
+**/.DS_Store

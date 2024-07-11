@@ -1,0 +1,146 @@
+# site info
+site_name: NLP Roadmap
+site_description: "NLP Roadmap"
+site_url: https://example.com # update
+
+# author
+site_author: "Krinal Joshi"
+copyright: Copyright &copy; 2024 - Krinal Joshi
+
+# Repository
+repo_name: kjdeveloper8/nlp-projects
+repo_url: https://github.com/kjdeveloper8/nlp-projects 
+
+# navigation
+nav:
+  - Home: index.md
+  - Text Preprocessing: nlp/text_preprocessing.md
+  - Parser: 
+    - parser/parser.md
+    - JSON parser: parser/json_parser.md
+    - HTML parser: parser/html_parser.md
+  - Text Encoding: nlp/text_encoding.md
+  - Text Classification:
+    - Intent Detection: text_classification/intent_detection.md
+    - Named Entity Recognition: text_classification/ner.md
+  - Text Similarity: text_similarity/text_similarity.md
+  - Text Clustering: text_clustering/text_clustering.md
+  - Sentiment Analysis: sentiment_analysis/sentiment_analysis.md
+  - Languages: 
+    - languages/pos.md
+    - languages/lang_detection.md
+    - languages/machine_translate.md
+  - Spell Correction: nlp/spell_correction.md
+  - PII: nlp/pii.md
+  - Conversational:
+    - Question Answer: conversational/question_answer.md
+    - Text Summarization: conversational/text_summarization.md
+  - Transformer: transformer/self_attention_and_transformer.md
+  - Evaluation Matrices: nlp/evaluation_matrices.md
+  - Resources: resources/resources.md
+
+
+theme:
+  name: material
+  language: en
+
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: fontawesome/solid/book-open-reader
+    repo: fontawesome/brands/git-alt
+    admonition:
+      note: fontawesome/solid/note-sticky
+      abstract: fontawesome/solid/book
+      info: fontawesome/solid/circle-info
+      tip: fontawesome/solid/bullhorn
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
+  features:
+    - content.code.copy             # enable copy code
+    - content.footnote.tooltips     # enable footnotes tooltips
+    # - navigation.tab              # show nav tabs on top in header
+    # - navigation.tab.sticky       # show nav tabs on top (not hidden as scroll)
+    - navigation.path               # show nav path (home > nlp > index)
+    # - navigation.expand           # show expand nav 
+    - navigation.top                # enable scroll to top button
+    - navigation.footer             # enable nav footer
+    - search.share                  # enable seach share
+
+# extensions
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - attr_list
+  - def_list
+  - md_in_html
+  - admonition
+  - tables
+  - footnotes
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+# analytics & social links
+# check schema/assets/icons.json for supported brands(source project repo)
+extra:
+  status:
+    new: Recently added
+    deprecated: Deprecated
+  generator: false
+  # analytics:
+  #   provider: google
+  #   property: !ENV GOOGLE_ANALYTICS_KEY
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/kjdeveloper8
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/krinaljoshi8/
+    - icon: fontawesome/solid/square-h
+      link: https://huggingface.co/krinal
+
+

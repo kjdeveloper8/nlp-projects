@@ -1,0 +1,27 @@
+{
+    "product":[{
+        "T-shirt":{
+            "property": [
+                {"size": "L", "color": "blue"},
+                {"size": "S", "color": "pink"},
+                {"size": "M", "color": "black"}
+                ],
+            "category":[
+                {"officewear": [
+                    {"type": "polo shirt", "price": 100}
+                    ]
+                },
+                {"casualwear":[
+                    {"type": "long sleeves", "price": 200}
+                ]
+            }
+            ]
+        },
+        "Dress":{
+            "property":[
+                {"color":"red"},
+                {"color":"white"}
+            ]
+        }
+    }]
+}
