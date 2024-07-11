@@ -131,7 +131,7 @@ extra:
   status:
     new: Recently added
     deprecated: Deprecated
-  generator: false
+  # generator: false
   # analytics:
   #   provider: google
   #   property: !ENV GOOGLE_ANALYTICS_KEY
