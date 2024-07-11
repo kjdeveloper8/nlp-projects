@@ -1,7 +1,6 @@
 import time
-import logging
-import pandas as pd
 from pathlib import Path
+
 ## solve import issues in other file
 
 DIR = Path(__file__).parent.parent
