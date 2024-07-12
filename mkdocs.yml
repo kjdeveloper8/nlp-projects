@@ -132,9 +132,9 @@ extra:
     new: Recently added
     deprecated: Deprecated
   # generator: false
-  analytics:
-    provider: google
-    property: !ENV ${G_ANALYTICS_KEY}
+  # analytics:
+  #   provider: google
+  #   property: !ENV GOOGLE_ANALYTICS_KEY
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/kjdeveloper8
