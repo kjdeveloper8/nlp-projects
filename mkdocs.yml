@@ -128,9 +128,9 @@ extra_javascript:
 # analytics & social links
 # check schema/assets/icons.json for supported brands(source project repo)
 extra:
-  status:
-    new: Recently added
-    deprecated: Deprecated
+  # status:
+  #   new: Recently added
+  #   deprecated: Deprecated
   # generator: false
   # analytics:
   #   provider: google
